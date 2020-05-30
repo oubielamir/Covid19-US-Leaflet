@@ -31,7 +31,7 @@ covid %>% filter(Confirmed <= input$cases) %>%
 #%>% filter(Deaths <= 100) 
  leaflet() %>% addProviderTiles(providers$Stamen.Toner) %>%
   #fitBounds(~min(covid$Lat), ~min(covid$Long_), ~max(covid$Lat), ~max(covid$Long_)) %>%
-  setView(-95.7129, 37.0902, zoom = 5) %>% addCircleMarkers( weight = ~(Deaths/1000),
+  setView(-95.7129, 37.0902, zoom = 4) %>% addCircleMarkers( weight = ~(Deaths/1000),
                                 popup = paste(covid$Province_State, '\n', (as.character(covid$Confirmed)), 'cases, ',
                                                         as.character(covid$Deaths), 'deaths')
                                          
