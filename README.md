@@ -32,9 +32,9 @@ in the command line and press return.
 
 
 
-5- To run the code use the commad 
+5- To run the code use the commad **Rscript leaflet_corona_U.S..R** 
 
-**Rscript leaflet_corona_U.S..R** 
+<img width="300" alt="Screen Shot 2020-06-07 at 8 50 39 AM" src="https://user-images.githubusercontent.com/21159097/83970844-eef00900-a8a5-11ea-8674-1e81e159d21b.png">
 
 
 
