@@ -1,6 +1,9 @@
 #  Covid19-US-Leaflet
 Data AS of 06-02-2020
 
+<img width="600" alt="Screen Shot 2020-06-07 at 10 18 56 AM" src="https://user-images.githubusercontent.com/21159097/83971252-7dfe2080-a8a8-11ea-8f1e-86a207911959.png">
+
+
 ### To run this script you must have R installed in your computer.
 
 
