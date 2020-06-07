@@ -15,10 +15,9 @@ in the command line and press return.
 
 
 
-2- use the command
+2- use the command **install.packages(c("shiny", "tidyverse", "leaflet", "leaflet.providers", "readr"))**
 
-**install.packages(c("shiny", "tidyverse", "leaflet", "leaflet.providers", "readr"))**
-
+<img width="940" alt="Screen Shot 2020-06-07 at 9 43 12 AM" src="https://user-images.githubusercontent.com/21159097/83971029-054a9480-a8a7-11ea-897b-937e0074969a.png">
 
 
 3- Any erorr or prompt about missing packages use the **install.packages** command to install them.
