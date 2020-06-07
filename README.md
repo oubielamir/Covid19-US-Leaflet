@@ -10,7 +10,7 @@ Data AS of 06-02-2020
 #### MAC Terminal:
 **Make sure you're in the directory with all the files.
 
-1- To acess the R shell and install packages from the terminal type 
+1- To acess the R and install packages from the terminal type 
 
 **R**  
 
@@ -30,7 +30,7 @@ in the command line and press return.
 
 
 
-4- Quit the R shell by typing **q()**
+4- Quit R by typing **q()**
 
 
 
