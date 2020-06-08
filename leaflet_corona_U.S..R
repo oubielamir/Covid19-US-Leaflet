@@ -5,7 +5,7 @@ library(readr)
 library(tidyverse)
 
 
-covid <- read_csv("06-02-2020.csv")
+covid <- read_csv("06-07-2020.csv")
 #rename Long_ and Lat columns so Leaflet can recgonize the coordintes 
 covid <- covid %>% rename(lng  = Long_, lat = Lat) %>% mutate(severe = ifelse(covid$Confirmed >= 100000, TRUE, FALSE),
                                                         circlesize = ifelse(covid$Confirmed <= 10000, 10,
