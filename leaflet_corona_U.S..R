@@ -4,7 +4,7 @@ library(leaflet.providers)
 library(readr)
 library(dplyr)
 
-covid <- read_csv("07-05-2020.csv")
+covid <- read_csv("07-14-2020.csv")
 
 
 
@@ -58,8 +58,10 @@ server <- function(input, output, session){
       setView(-95.7129, 37.0902, zoom = 4) %>%
       addCircleMarkers(weight = ~(Deaths/1000),
                         label = ~paste(Province_State, ":",  sep = "\n", (as.character(Confirmed)), 'cases, ',
-                                       as.character(People_Hospitalized), "Hospitalized, and", as.character(Deaths), 'deaths'), color = ~binpal(covid$Confirmed),
-                        radius = ~circlesize, labelOptions = (textsize = "50px") ) 
+                        as.character(People_Hospitalized), "Hospitalized, and", as.character(Deaths), 'deaths'), 
+                        color = ~binpal(covid$Confirmed),
+                        radius = ~circlesize
+                       ) 
      m 
   })
   
