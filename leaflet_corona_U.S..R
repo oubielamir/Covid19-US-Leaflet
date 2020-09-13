@@ -4,7 +4,7 @@ library(leaflet.providers)
 library(readr)
 library(dplyr)
 
-covid <- read_csv("07-14-2020.csv")
+covid <- read_csv("09-12-2020.csv")
 
 
 
